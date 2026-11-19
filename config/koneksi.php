@@ -3,11 +3,11 @@ $privateConfig = __DIR__ . '/config.php';
 if (is_file($privateConfig)) {
     require $privateConfig;
 } else {
-    define('DB_HOST', 'sql208.infinityfree.com');
-    define('DB_USER', 'if0_42247619');
-    define('DB_PASS', 'j0NApkvIZTmuK');
-    define('DB_NAME', 'if0_42247619_marketplace');
-    define('BASE_URL', '/marketplace'); 
+    define('DB_HOST', '');
+    define('DB_USER', '');
+    define('DB_PASS', '');
+    define('DB_NAME', '');
+    define('BASE_URL', ''); 
 }
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
