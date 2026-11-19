@@ -24,10 +24,6 @@ Tokoharu adalah marketplace multi-kategori dengan tampilan pastel modern-minimal
 5. Pastikan folder `uploads` dapat ditulis oleh PHP (umumnya permission 755/775 sesuai ketentuan hosting).
 6. Ganti password penjual awal dan uji katalog, keranjang, checkout, serta halaman admin.
 
-## Keamanan konfigurasi
-- Jangan mengunggah `config/config.php` ke GitHub atau membagikan file tersebut.
-- `.gitignore` sudah mengecualikan `config/config.php` dan isi folder `uploads`.
-- ZIP distribusi ini tidak menyertakan kredensial database hosting.
 
 ## Struktur penting
 - `index.php`: katalog dan homepage Tokoharu
